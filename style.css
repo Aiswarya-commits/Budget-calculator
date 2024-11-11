@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://img.freepik.com/premium-photo/blue-pink-mesh-gradient-banner-background-wallpaper-website-template-landing-page-web-frame-text_685444-38.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background: transparent;
+}
+.container h2{
+    background: transparent;
+ 
+}
+label{
+    background: transparent;
+
+}
+input{
+    background: white;
+}
+.input-section,.summary-section{
+    margin-bottom: 20px;
+    display: flex;
+}
+.summary-section{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    background: transparent;
+
+}
+
+label, input{
+    margin: 5px;
+}
+button{
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+.card{
+    display: inline-block;
+    background: #dcdcdc;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+#expenseList{
+    margin-top: 20px;
+    background: white;
+
+
+}
+.expense-item{
+    display: flex;
+    justify-content: space-between;
+    background: #555;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+.expense-item button{
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+#totalBudget{
+    background: white;
+}
+#totalExpense{
+    background: white;
+
+}
+#balanceAmount{
+    background: white;
+ 
+}
+.box{
+    background: white;
+
+}
+.navbar button{
+    background: white;
+}
+.navbar-brand{
+    background: transparent;
+}
